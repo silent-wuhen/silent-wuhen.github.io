@@ -1,0 +1,307 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>计算机科学速成 | My Blog</title><meta name="author" content="HQH"><meta name="copyright" content="HQH"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="前言视频1：B站 视频2：GitHub crash course非常好的国外计算机基础的课程，可以当科普视频刷一刷。 课程目标：从高层次总览一系列计算机话题，快速入门计算机科学。 第一课：计算机早期历史1、计算机技术的影响——进入信息时代 出现自动化农业设备与医疗设备  全球通信和全球教育机会变得普遍  出现意想不到的虚拟现实&#x2F;无人驾驶&#x2F;人工智能等新领域   2、计算机的实质：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算机科学速成">
+<meta property="og:url" content="http://example.com/2023/11/07/1.%E8%AE%A1%E7%AE%97%E6%9C%BA/3.%E8%87%AA%E5%AD%A6/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/index.html">
+<meta property="og:site_name" content="My Blog">
+<meta property="og:description" content="前言视频1：B站 视频2：GitHub crash course非常好的国外计算机基础的课程，可以当科普视频刷一刷。 课程目标：从高层次总览一系列计算机话题，快速入门计算机科学。 第一课：计算机早期历史1、计算机技术的影响——进入信息时代 出现自动化农业设备与医疗设备  全球通信和全球教育机会变得普遍  出现意想不到的虚拟现实&#x2F;无人驾驶&#x2F;人工智能等新领域   2、计算机的实质：">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/%E5%9B%BE%E7%89%87/011.jpg">
+<meta property="article:published_time" content="2023-11-07T03:53:42.000Z">
+<meta property="article:modified_time" content="2023-11-07T16:17:45.560Z">
+<meta property="article:author" content="HQH">
+<meta property="article:tag" content="自学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/%E5%9B%BE%E7%89%87/011.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2023/11/07/1.%E8%AE%A1%E7%AE%97%E6%9C%BA/3.%E8%87%AA%E5%AD%A6/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体中文","cht_to_chs":"你已切换为简体中文","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"top-right"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '计算机科学速成',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-11-08 00:17:45'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://www.fomal.cc/static/css/runtime.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.0.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/touxiang.JPG" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/%E5%9B%BE%E7%89%87/011.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="My Blog"></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><!-- span=' '+_p('search.title')--></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">计算机科学速成</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-11-07T03:53:42.000Z" title="发表于 2023-11-07 11:53:42">2023-11-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-11-07T16:17:45.560Z" title="更新于 2023-11-08 00:17:45">2023-11-08</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="计算机科学速成"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>视频1：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1EW411u7th/?spm_id_from=333.337.search-card.all.click&vd_source=bd0b10b1a89eeb70aae017bf4b5233c3">B站</a></p>
+<p>视频2：<a target="_blank" rel="noopener" href="https://github.com/1c7/crash-course-computer-science-chinese">GitHub</a></p>
+<p>crash course非常好的国外计算机基础的课程，可以当科普视频刷一刷。</p>
+<h2 id="课程目标："><a href="#课程目标：" class="headerlink" title="课程目标："></a>课程目标：</h2><p>从高层次总览一系列计算机话题，快速入门计算机科学。</p>
+<h1 id="第一课：计算机早期历史"><a href="#第一课：计算机早期历史" class="headerlink" title="第一课：计算机早期历史"></a>第一课：计算机早期历史</h1><h2 id="1、计算机技术的影响——进入信息时代"><a href="#1、计算机技术的影响——进入信息时代" class="headerlink" title="1、计算机技术的影响——进入信息时代"></a>1、计算机技术的影响——进入信息时代</h2><ul>
+<li><p>出现自动化农业设备与医疗设备</p>
+</li>
+<li><p>全球通信和全球教育机会变得普遍</p>
+</li>
+<li><p>出现意想不到的虚拟现实&#x2F;无人驾驶&#x2F;人工智能等新领域</p>
+</li>
+</ul>
+<h2 id="2、计算机的实质："><a href="#2、计算机的实质：" class="headerlink" title="2、计算机的实质："></a>2、计算机的实质：</h2><p>极其简单的组件，通过一层层的抽象，来做出复杂的操作。</p>
+<p>计算机中的很多东西，底层其实都很简单，让人难以理解的，是一层层精妙的抽象。像一个越来越小的俄罗斯套娃。</p>
+<h2 id="3、关于计算的历史："><a href="#3、关于计算的历史：" class="headerlink" title="3、关于计算的历史："></a>3、关于计算的历史：</h2><ol>
+<li>公元前 2500 年：算盘出现，为十进制，功能类似一个计数器。</li>
+<li>公元前 2500 年-公元 1500年：星盘、计算尺等依靠机械运动的计算设备出现</li>
+<li>公元 1613 年：computer 的概念出现，当时指的是专门做计算的职业，</li>
+<li>1694 年：步进计算器出现，是世界上第一台能自动完成加减乘除的计算器。</li>
+<li>1694-1900 年：计算表兴起，类似于字典，可用于查找各种庞大的计算值。</li>
+<li>1823 年：差分机的设想出现，可以做函数计算，但计划最后失败。</li>
+<li>19 世纪中期：分析机的设想出现，设想存在可计算一切的通用计算机。</li>
+<li>1890 年：打孔卡片制表机。原理：在纸上打孔→孔穿过针→针泡入汞→电路连通→齿轮使计数+1。</li>
+</ol>
+<h1 id="第二课：电子计算机的发展史"><a href="#第二课：电子计算机的发展史" class="headerlink" title="第二课：电子计算机的发展史"></a>第二课：电子计算机的发展史</h1><h2 id="1、电子计算机元器件变化："><a href="#1、电子计算机元器件变化：" class="headerlink" title="1、电子计算机元器件变化："></a>1、电子计算机元器件变化：</h2><p>继电器→真空管→晶体管</p>
+<h2 id="2、计算机的出现背景："><a href="#2、计算机的出现背景：" class="headerlink" title="2、计算机的出现背景："></a>2、计算机的出现背景：</h2><p>20世纪人口暴增，科学与工程进步迅速，航天计划成形。以上导致数据的复杂度急剧上升、计算量暴增，对于计算的自动化、高速有迫切的需求。</p>
+<h2 id="3、电子计算机的发展："><a href="#3、电子计算机的发展：" class="headerlink" title="3、电子计算机的发展："></a>3、电子计算机的发展：</h2><p>1945年 哈佛马克1：使用继电器，用电磁效应，控制机械开关，缺点为有磨损和延迟。</p>
+<p>*最早还因为有虫子飞进去导致故障，引申出bug&#x3D;故障的意思。</p>
+<p>1943年 巨人1号：使用真空管（三极管），制造出世界上第一个可编程的计算机。</p>
+<p>1946年 ENIAC：第一个电子数值积分计算机，为第一台通用计算机。</p>
+<p>1947年 晶体管出现：使用的是固态的半导体材料，相对真空管更可靠。</p>
+<p>1950s 空军ANFSQ-7： 真空管到达计算极限。</p>
+<p>1957年 IBM 608： 第一个消费者可购买的晶体管计算机出现。</p>
+<h1 id="第三课：布尔逻辑与逻辑门"><a href="#第三课：布尔逻辑与逻辑门" class="headerlink" title="第三课：布尔逻辑与逻辑门"></a>第三课：布尔逻辑与逻辑门</h1><h2 id="1、计算机为什么使用二进制："><a href="#1、计算机为什么使用二进制：" class="headerlink" title="1、计算机为什么使用二进制："></a>1、计算机为什么使用二进制：</h2><ol>
+<li>计算机的元器件晶体管只有2种状态，通电（1）&amp;  断电（0），用二进制可直接根据元器件的状态来设计计算机。</li>
+<li>而且，数学中的“布尔代数”分支，可以用True和False（可用1代表True，0代表False）进行逻辑运算，代替实数进行计算。</li>
+<li>进制数越多（十进制等），信号越容易混淆，影响计算。对于当时每秒运算百万次以上的晶体管，信号混淆是特别让人头疼的的。</li>
+</ol>
+<h2 id="2、布尔代数-布尔代数在计算机中的实现"><a href="#2、布尔代数-布尔代数在计算机中的实现" class="headerlink" title="2、布尔代数&amp;布尔代数在计算机中的实现"></a>2、布尔代数&amp;布尔代数在计算机中的实现</h2><ol>
+<li>变量：没有常数，仅True和False这两个变量。</li>
+<li>三个基本操作：NOT&#x2F;AND&#x2F;OR。</li>
+</ol>
+<h3 id="1）NOT操作："><a href="#1）NOT操作：" class="headerlink" title="1）NOT操作："></a>1）NOT操作：</h3><ol>
+<li>命名：称为NOT门&#x2F;非门。</li>
+<li>作用：将输入布尔值反转。输入的True或False，输出为False或True。</li>
+<li>晶体管的实现方式：<ul>
+<li>半导体通电True，则线路<strong>接地</strong>，无输出电流，为False。</li>
+<li>半导体不通电False，则输出电流从右边输出，为True。</li>
+</ul>
+</li>
+</ol>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://github.com/silent-wuhen/Blog_picture01/blob/main/3.%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/1.png?raw=true" alt="1.png"></p>
+<h3 id="2）AND操作"><a href="#2）AND操作" class="headerlink" title="2）AND操作"></a>2）AND操作</h3><ol>
+<li><p>命名：AND门&#x2F;与门</p>
+</li>
+<li><p>作用：由2个输入控制输出，仅当2个输入input1和input2都为True时，输出才为True，2个输入的其余情况，输出均为False。</p>
+<p>*可以理解为，输入有假，输出为假，反之（输入为真-真，输出才为真）。</p>
+</li>
+</ol>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://github.com/silent-wuhen/Blog_picture01/blob/main/3.%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/2.png?raw=true" alt="2.png"></p>
+<p>3.用晶体管实现的方式：</p>
+<p>串联两个晶体管，仅当2个晶体管都通电，输出才有电流（True）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://github.com/silent-wuhen/Blog_picture01/blob/main/3.%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/3.png?raw=true" alt="3.png"></p>
+<h3 id="3）OR操作"><a href="#3）OR操作" class="headerlink" title="3）OR操作"></a>3）OR操作</h3><p>1.命名：OR门&#x2F;或门</p>
+<p>2.作用：由2个输入控制输出，只要其中一个输入为True，则输出True。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://github.com/silent-wuhen/Blog_picture01/blob/main/3.%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/4.png?raw=true" alt="4.png"></p>
+<p>3.用晶体管实现的方式：</p>
+<p>使用2个晶体管，将它们并联到电路中，只要有一个晶体管通电，则输出有电流（True）。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://github.com/silent-wuhen/Blog_picture01/blob/main/3.%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/5.png?raw=true" alt="5.png"></p>
+<h2 id="3、特殊的逻辑运算——异或"><a href="#3、特殊的逻辑运算——异或" class="headerlink" title="3、特殊的逻辑运算——异或"></a>3、特殊的逻辑运算——异或</h2><p>1.命名：XOR门&#x2F;异或门</p>
+<p>2.作用：2个输入控制一个输出。当2个输入相同（均为True时，输出False），输出false。反之，输入不同（一个True时，一个False），输出为True。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://github.com/silent-wuhen/Blog_picture01/blob/main/3.%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/6.png?raw=true" alt="6.png"></p>
+<p>3.图示：</p>
+<p>先用一个OR门，将其与AND门并联，AND门与NOT门串联，最后让NOT与AND门并联，获得输出。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://github.com/silent-wuhen/Blog_picture01/blob/main/3.%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/7.png?raw=true" alt="7.png"></p>
+<h2 id="4、逻辑门的符号表示"><a href="#4、逻辑门的符号表示" class="headerlink" title="4、逻辑门的符号表示"></a>4、逻辑门的符号表示</h2><p>1.作用：将逻辑门简化，将逻辑门用于构建更大的组件，而不至于太复杂。</p>
+<p>2.图示：</p>
+<ul>
+<li><p>非门：用三角形+圆圈表示</p>
+</li>
+<li><p>与门：用D型图案表示</p>
+</li>
+<li><p>或门：用类似D向右弯曲的图案表示</p>
+</li>
+<li><p>异或门：用或门+一个圆弧表示</p>
+</li>
+</ul>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://github.com/silent-wuhen/Blog_picture01/blob/main/3.%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/8.png?raw=true" alt="8.png"></p>
+<h2 id="5、抽象的好处"><a href="#5、抽象的好处" class="headerlink" title="5、抽象的好处"></a>5、抽象的好处</h2><p>使得分工明确，不同职业的工程师各司其职,而不用担心其他细节。</p>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%87%AA%E5%AD%A6/">自学</a></div><div class="post_share"><div class="social-share" data-image="/img/%E5%9B%BE%E7%89%87/011.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2023/11/04/3.%E6%97%A5%E5%B8%B8/1.%E9%80%BB%E8%BE%91%E6%80%9D%E8%80%83/1.%E5%B9%BB%E6%83%B3%E5%A5%87%E6%9C%AF%E5%B8%88/" title="幻想奇术师"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/012.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">幻想奇术师</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/touxiang.JPG" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">HQH</div><div class="author-info__description">我要睡到自然醒</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/silent-wuhen"><i class="fab fa-github"></i><span>GitHub</span></a></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%BE%E7%A8%8B%E7%9B%AE%E6%A0%87%EF%BC%9A"><span class="toc-number">1.1.</span> <span class="toc-text">课程目标：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E8%AF%BE%EF%BC%9A%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%97%A9%E6%9C%9F%E5%8E%86%E5%8F%B2"><span class="toc-number">2.</span> <span class="toc-text">第一课：计算机早期历史</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E7%9A%84%E5%BD%B1%E5%93%8D%E2%80%94%E2%80%94%E8%BF%9B%E5%85%A5%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3"><span class="toc-number">2.1.</span> <span class="toc-text">1、计算机技术的影响——进入信息时代</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AE%9E%E8%B4%A8%EF%BC%9A"><span class="toc-number">2.2.</span> <span class="toc-text">2、计算机的实质：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E3%80%81%E5%85%B3%E4%BA%8E%E8%AE%A1%E7%AE%97%E7%9A%84%E5%8E%86%E5%8F%B2%EF%BC%9A"><span class="toc-number">2.3.</span> <span class="toc-text">3、关于计算的历史：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E8%AF%BE%EF%BC%9A%E7%94%B5%E5%AD%90%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2"><span class="toc-number">3.</span> <span class="toc-text">第二课：电子计算机的发展史</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E7%94%B5%E5%AD%90%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%85%83%E5%99%A8%E4%BB%B6%E5%8F%98%E5%8C%96%EF%BC%9A"><span class="toc-number">3.1.</span> <span class="toc-text">1、电子计算机元器件变化：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%87%BA%E7%8E%B0%E8%83%8C%E6%99%AF%EF%BC%9A"><span class="toc-number">3.2.</span> <span class="toc-text">2、计算机的出现背景：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E3%80%81%E7%94%B5%E5%AD%90%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%8F%91%E5%B1%95%EF%BC%9A"><span class="toc-number">3.3.</span> <span class="toc-text">3、电子计算机的发展：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E8%AF%BE%EF%BC%9A%E5%B8%83%E5%B0%94%E9%80%BB%E8%BE%91%E4%B8%8E%E9%80%BB%E8%BE%91%E9%97%A8"><span class="toc-number">4.</span> <span class="toc-text">第三课：布尔逻辑与逻辑门</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E4%BA%8C%E8%BF%9B%E5%88%B6%EF%BC%9A"><span class="toc-number">4.1.</span> <span class="toc-text">1、计算机为什么使用二进制：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81%E5%B8%83%E5%B0%94%E4%BB%A3%E6%95%B0-%E5%B8%83%E5%B0%94%E4%BB%A3%E6%95%B0%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%AD%E7%9A%84%E5%AE%9E%E7%8E%B0"><span class="toc-number">4.2.</span> <span class="toc-text">2、布尔代数&amp;布尔代数在计算机中的实现</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%EF%BC%89NOT%E6%93%8D%E4%BD%9C%EF%BC%9A"><span class="toc-number">4.2.1.</span> <span class="toc-text">1）NOT操作：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%EF%BC%89AND%E6%93%8D%E4%BD%9C"><span class="toc-number">4.2.2.</span> <span class="toc-text">2）AND操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%EF%BC%89OR%E6%93%8D%E4%BD%9C"><span class="toc-number">4.2.3.</span> <span class="toc-text">3）OR操作</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E3%80%81%E7%89%B9%E6%AE%8A%E7%9A%84%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E2%80%94%E2%80%94%E5%BC%82%E6%88%96"><span class="toc-number">4.3.</span> <span class="toc-text">3、特殊的逻辑运算——异或</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%E3%80%81%E9%80%BB%E8%BE%91%E9%97%A8%E7%9A%84%E7%AC%A6%E5%8F%B7%E8%A1%A8%E7%A4%BA"><span class="toc-number">4.4.</span> <span class="toc-text">4、逻辑门的符号表示</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5%E3%80%81%E6%8A%BD%E8%B1%A1%E7%9A%84%E5%A5%BD%E5%A4%84"><span class="toc-number">4.5.</span> <span class="toc-text">5、抽象的好处</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/11/07/1.%E8%AE%A1%E7%AE%97%E6%9C%BA/3.%E8%87%AA%E5%AD%A6/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/" title="计算机科学速成"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/011.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机科学速成"/></a><div class="content"><a class="title" href="/2023/11/07/1.%E8%AE%A1%E7%AE%97%E6%9C%BA/3.%E8%87%AA%E5%AD%A6/1.%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/" title="计算机科学速成">计算机科学速成</a><time datetime="2023-11-07T03:53:42.000Z" title="发表于 2023-11-07 11:53:42">2023-11-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/04/3.%E6%97%A5%E5%B8%B8/1.%E9%80%BB%E8%BE%91%E6%80%9D%E8%80%83/1.%E5%B9%BB%E6%83%B3%E5%A5%87%E6%9C%AF%E5%B8%88/" title="幻想奇术师"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/012.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="幻想奇术师"/></a><div class="content"><a class="title" href="/2023/11/04/3.%E6%97%A5%E5%B8%B8/1.%E9%80%BB%E8%BE%91%E6%80%9D%E8%80%83/1.%E5%B9%BB%E6%83%B3%E5%A5%87%E6%9C%AF%E5%B8%88/" title="幻想奇术师">幻想奇术师</a><time datetime="2023-11-04T15:16:12.000Z" title="发表于 2023-11-04 23:16:12">2023-11-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/03/2.DIY/1.%E7%BD%91%E9%A1%B5%E6%90%AD%E5%BB%BA/1.%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="零成本博客搭建"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/012.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="零成本博客搭建"/></a><div class="content"><a class="title" href="/2023/11/03/2.DIY/1.%E7%BD%91%E9%A1%B5%E6%90%AD%E5%BB%BA/1.%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="零成本博客搭建">零成本博客搭建</a><time datetime="2023-11-03T03:46:12.000Z" title="发表于 2023-11-03 11:46:12">2023-11-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/03/2.DIY/1.%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/1.%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="零成本博客搭建"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/013.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="零成本博客搭建"/></a><div class="content"><a class="title" href="/2023/11/03/2.DIY/1.%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/1.%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="零成本博客搭建">零成本博客搭建</a><time datetime="2023-11-03T03:46:12.000Z" title="发表于 2023-11-03 11:46:12">2023-11-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/11/03/1.%E8%AE%A1%E7%AE%97%E6%9C%BA/2.%E5%A4%A7%E6%95%B0%E6%8D%AE/12.Spark/" title="spark"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/015.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="spark"/></a><div class="content"><a class="title" href="/2023/11/03/1.%E8%AE%A1%E7%AE%97%E6%9C%BA/2.%E5%A4%A7%E6%95%B0%E6%8D%AE/12.Spark/" title="spark">spark</a><time datetime="2023-11-02T16:36:52.000Z" title="发表于 2023-11-03 00:36:52">2023-11-03</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 By HQH</div><div class="footer_custom_text">Hi,welcome to my blog!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"></div><script defer src="/js/cursor.js"></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="30" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="false" data-text="别卷了,别睡了,干饭了" data-fontsize="15px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_footer_beautify_injector_config(){
+    var parent_div_git = document.getElementById('footer-wrap');
+    var item_html = '<div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v6.2.0" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&amp;logo=hexo" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" data-title="主题版本Butterfly_v4.3.1" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&amp;logo=bitdefender" alt=""/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" data-title="本站采用多线部署，主线路托管于Vercel" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Hosted-Vercel-brightgreen?style=flat&amp;logo=Vercel" alt=""/></a><a class="github-badge" target="_blank" href="https://dashboard.4everland.org/" style="margin-inline:5px" data-title="本站采用多线部署，备用线路托管于4EVERLAND" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Hosted-4EVERLAND-22DDDD?style=flat&amp;logo=IPFS" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub" alt=""/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" data-title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&amp;logo=Claris" alt=""/></a></p>';
+    console.log('已挂载butterfly_footer_beautify')
+    parent_div_git.insertAdjacentHTML("beforeend",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_footer_beautify_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_footer_beautify_injector_config();
+  }
+  </script><script async src="/js/runtime.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '2s');
+    arr[i].setAttribute('data-wow-delay', '1s');
+    arr[i].setAttribute('data-wow-offset', '100');
+    arr[i].setAttribute('data-wow-iteration', '1');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>
