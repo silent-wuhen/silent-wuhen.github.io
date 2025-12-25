@@ -1,0 +1,436 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>My Blog - 行到水穷处，坐看云起时</title><meta name="author" content="HQH"><meta name="copyright" content="HQH"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="我要睡到自然醒">
+<meta property="og:type" content="website">
+<meta property="og:title" content="My Blog">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="My Blog">
+<meta property="og:description" content="我要睡到自然醒">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/touxiang.JPG">
+<meta property="article:author" content="HQH">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/touxiang.JPG"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体中文","cht_to_chs":"你已切换为简体中文","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"top-right"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'My Blog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2025-12-25 20:44:23'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://www.fomal.cc/static/css/runtime.min.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.0.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/touxiang.JPG" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="My Blog"></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><!-- span=' '+_p('search.title')--></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">My Blog</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2025/08/01/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" title="Java基础语法"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/012.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java基础语法"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/08/01/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" title="Java基础语法">Java基础语法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-08-01T15:17:12.000Z" title="发表于 2025-08-01 23:17:12">2025-08-01</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-10-08T12:35:24.093Z" title="更新于 2025-10-08 20:35:24">2025-10-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/H06-Java/">H06_Java</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Java/">Java</a></span></div><div class="content">前言视频：黑马程序员
+1.Java入门1.人机交互
+什么是cmd？
+在windows操作系统中，利用命令行的方式操作计算机。如：打开文件，打开文件夹，创建文件夹等。
+
+常用CMD命令
+
+
+
+操作
+说明
+
+
+
+盘符名称:
+盘符切换。E:，表示切换到E盘。
+
+
+dir
+查看当前路径下的内容。
+
+
+cd 目录
+进入单级目录。cd itheima
+
+
+cd ..
+回退到上一级目录。
+
+
+cd 目录1\目录2...
+进入多级目录。cd itheima\JavaSE
+
+
+cd \
+回退到盘符目录。
+
+
+cls
+清屏。
+
+
+exit
+退出命令提示符窗口。
+
+
+
+环境变量
+
+
+2. Java概述
+Java是什么？
+
+计算机语言：人与计算机之间进行信息交流沟通的一种特殊语言
+
+
+JDK下载，安装与介绍（17版本）
+
+下载：官方网站获取
+
+安装：改路径即可
+
+介绍
+
+
+
+目录名称
+说明
+
+
+
+bin
+该路径下存放了JDK的各种工具命令。javac和java就放在这个目录。
+
+
+conf
+该路径下存放了JDK的相关配置文件。
+
+
+include
+该路径下存放了一些平台特定的头文件。
+
+
+jmods
+该路径下 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2025/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/" title="计算机科学速成"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/011.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机科学速成"></a></div><div class="recent-post-info"><a class="article-title" href="/2025/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/" title="计算机科学速成">计算机科学速成</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-04-22T03:53:42.000Z" title="发表于 2025-04-22 11:53:42">2025-04-22</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-10-08T12:35:24.110Z" title="更新于 2025-10-08 20:35:24">2025-10-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/H02-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">H02_计算机基础</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/">计算机导论</a></span></div><div class="content">前言：视频1：B站
+视频2：GitHub
+一个科普向系列视频，在短短 8 个小时里非常生动且全面地科普了关于计算机科学的方方面面：计算机的历史、计算机是如何运作的、组成计算机的各个重要模块、计算机科学中的重要思想等。正如它的口号所说的 Computers are not magic!
+1.计算机早期历史
+计算机技术的影响——进入信息时代
+出现自动化农业设备与医疗设备
+
+全球通信和全球教育机会变得普遍
+
+出现意想不到的虚拟现实&#x2F;无人驾驶&#x2F;人工智能等新领域
+
+
+
+计算机的实质：
+计算机是由极其简单的组件，通过一层层的抽象，来做出复杂的操作。
+计算机中的很多东西，底层其实都很简单，让人难以理解的，是一层层精妙的抽象。
+
+
+关于计算的历史：
+公元前 2500 年：算盘出现，为十进制，功能类似一个计数器。
+公元前 2500 年-公元 1500年：星盘、计算尺等依靠机械运动的计算设备出现
+公元 1613 年：computer 的概念出现，当时指的是专门做计算的职业，
+1694 年：步进计算器出现，是世界上第一台能自动完成加减乘除的计算器。
+1694-1900 年：计算表兴起，类 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/09/12/Pytorch%E5%85%A5%E9%97%A8_%E5%B0%8F%E5%9C%9F%E5%A0%86/" title="pytorch入门_小土堆"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/014.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="pytorch入门_小土堆"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/09/12/Pytorch%E5%85%A5%E9%97%A8_%E5%B0%8F%E5%9C%9F%E5%A0%86/" title="pytorch入门_小土堆">pytorch入门_小土堆</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-09-12T15:17:12.000Z" title="发表于 2024-09-12 23:17:12">2024-09-12</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-10-08T12:35:24.097Z" title="更新于 2025-10-08 20:35:24">2025-10-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/H05-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">H05_人工智能</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">深度学习</a></span></div><div class="content">前言B站：pytorch入门
+讲的真的基础，入门yyds！！！
+0.环境搭建1.pytorch安装
+前置条件：已安装anaconda
+pycharm：ctrl+p查看需要输入的参数
+
+12345678910111213// 创建虚拟环境，视频使用python=3.6conda create -n pytorch python=3.6# 激活虚拟环境conda activate pytorch# 查看虚拟环境列表conda env list# 安装cpu版pytorch（没有显卡的忧伤）conda install pytorch torchvision torchaudio cpuonly -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/win-64/conda install nb_conda
+
+12345# 验证python # 对应的虚拟环境中import torchtorch.cuda.is_available() # 返回False,则成功（检查gpu是否可用）
+
+1234567# 其他环境的安装#  ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/09/12/%E5%95%86%E5%93%81%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E7%B3%BB%E7%BB%9F/" title="商品大数据可视化系统"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/011.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="商品大数据可视化系统"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/09/12/%E5%95%86%E5%93%81%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E7%B3%BB%E7%BB%9F/" title="商品大数据可视化系统">商品大数据可视化系统</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-09-12T15:17:12.000Z" title="发表于 2024-09-12 23:17:12">2024-09-12</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-10-08T12:35:24.106Z" title="更新于 2025-10-08 20:35:24">2025-10-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/H04-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E6%8C%96%E6%8E%98/">H04_数据分析与挖掘</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%A1%B9%E7%9B%AE/">数据分析项目</a></span></div><div class="content">前言这是个项目是对淘宝的数据进行：数据爬取，数据分析，可视化大屏，机器学习进行销量预测。
+视频：商品数据可视化大屏
+
+技术：
+数据获取：爬虫的selenium自动化技术
+数据存储：MySQL数据库
+后端：python的Django框架
+前端：vue框架
+图表：echarts
+
+
+需要的工具：
+后端与数据库：
+
+python，pycharm专业版
+MySQL，Navicat
+Chrome，ChromeDriver
+
+前端：
+
+node.js
+
+ 12&gt;# 镜像源：&gt;npm config set registry https://registry.npmmirror.com
+
+
+vscode
+
+
+项目展示：
+
+1.项目初始化1.创建项目
+2.安装依赖
+创建一个requirements.txt文件，requirements.txt的内容是：
+1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/04/28/Git%E5%9F%BA%E7%A1%80/" title="Git基础"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/015.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Git基础"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/28/Git%E5%9F%BA%E7%A1%80/" title="Git基础">Git基础</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-28T11:00:12.000Z" title="发表于 2024-04-28 19:00:12">2024-04-28</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-10-08T12:35:24.088Z" title="更新于 2025-10-08 20:35:24">2025-10-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/H01-%E5%BC%80%E5%8F%91%E6%8A%80%E8%83%BD/">H01_开发技能</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Git-Github/">Git&amp;Github</a></span></div><div class="content">前言视频1：快速学习
+视频2：黑马程序员
+命令练习
+1.学习目标
+了解Git基本概念
+能够概述git工作流程
+能够使用Git常用命令
+熟悉Git代码托管服务
+00能够使用idea操作git
+
+学习Git，不依赖于任何的编程知识，且可以保存代码或者资料（相当于一个云盘，但比百度云盘这种更加的方便）
+重点是要掌握使用idea操作Git，企业用的最多，一般不会去使用命令
+2.概述1. 开发中的实际场景123456789101112场景一：备份 小明负责的模块就要完成了，就在即将Release之前的一瞬间，电脑突然蓝屏，硬盘光荣牺牲！几个月 来的努力付之东流 场景二：代码还原 这个项目中需要一个很复杂的功能，老王摸索了一个星期终于有眉目了，可是这被改得面目全非的 代码已经回不到从前了。什么地方能买到哆啦A梦的时光机啊？ 场景三：协同开发 小刚和小强先后从文件服务器上下载了同一个文件：Analysis.java。小刚在Analysis.java 文件中的第30行声明了一个方法，叫count()，先保存到了文件服务器上；小强在Analysis.java文件中的 第50行声明了一个方法，叫sum() ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/04/28/Shell%E7%BC%96%E7%A8%8B/" title="Shell编程"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/015.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Shell编程"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/28/Shell%E7%BC%96%E7%A8%8B/" title="Shell编程">Shell编程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-28T11:00:12.000Z" title="发表于 2024-04-28 19:00:12">2024-04-28</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-10-08T12:35:24.098Z" title="更新于 2025-10-08 20:35:24">2025-10-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/H01-%E5%BC%80%E5%8F%91%E6%8A%80%E8%83%BD/">H01_开发技能</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Linux/">Linux</a></span></div><div class="content">前言视频：尚硅谷
+计算机必学的工具之一，但是学校不会教，企业又要用。对Shell的学习拖了很久，最近突然对脚本的兴趣非常的高涨，于是决定认真的学习一下。
+
+因为学习的时间比较短且仓促，等以后再次深入学习的时候再次补充。
+
+1.Shell概述Shell是一个命令行解释器，它接收应用程序&#x2F;用户命令，然后调用系统内核。
+
+
+Linux 提供的 Shell 解析器有
+1234567[atguigu@hadoop101 ~]$ cat /etc/shells/bin/sh/bin/bash/usr/bin/sh/usr/bin/bash/bin/tcsh/bin/csh
+
+bash和sh的关系
+123[atguigu@hadoop101 bin]$ ll | grep bash-rwxr-xr-x. 1 root root 941880 5 月 11 2016 bashlrwxrwxrwx. 1 root root 4 5 月 27 2017 sh -&gt; bash
+
+Centos默认解析器是bash
+12[atguigu@hadoop101 bin]$ echo $SHELL/b ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/touxiang.JPG" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">HQH</div><div class="author-info__description">我要睡到自然醒</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/silent-wuhen"><i class="fab fa-github"></i><span>GitHub</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">此网站仅个人学习使用，如有侵权请联系QQ：3281320387删除。</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/08/01/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" title="Java基础语法"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/012.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java基础语法"/></a><div class="content"><a class="title" href="/2025/08/01/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" title="Java基础语法">Java基础语法</a><time datetime="2025-08-01T15:17:12.000Z" title="发表于 2025-08-01 23:17:12">2025-08-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/" title="计算机科学速成"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/011.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机科学速成"/></a><div class="content"><a class="title" href="/2025/04/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E9%80%9F%E6%88%90/" title="计算机科学速成">计算机科学速成</a><time datetime="2025-04-22T03:53:42.000Z" title="发表于 2025-04-22 11:53:42">2025-04-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/09/12/Pytorch%E5%85%A5%E9%97%A8_%E5%B0%8F%E5%9C%9F%E5%A0%86/" title="pytorch入门_小土堆"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/014.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="pytorch入门_小土堆"/></a><div class="content"><a class="title" href="/2024/09/12/Pytorch%E5%85%A5%E9%97%A8_%E5%B0%8F%E5%9C%9F%E5%A0%86/" title="pytorch入门_小土堆">pytorch入门_小土堆</a><time datetime="2024-09-12T15:17:12.000Z" title="发表于 2024-09-12 23:17:12">2024-09-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/09/12/%E5%95%86%E5%93%81%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E7%B3%BB%E7%BB%9F/" title="商品大数据可视化系统"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/011.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="商品大数据可视化系统"/></a><div class="content"><a class="title" href="/2024/09/12/%E5%95%86%E5%93%81%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E7%B3%BB%E7%BB%9F/" title="商品大数据可视化系统">商品大数据可视化系统</a><time datetime="2024-09-12T15:17:12.000Z" title="发表于 2024-09-12 23:17:12">2024-09-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/28/Git%E5%9F%BA%E7%A1%80/" title="Git基础"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%9B%BE%E7%89%87/015.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Git基础"/></a><div class="content"><a class="title" href="/2024/04/28/Git%E5%9F%BA%E7%A1%80/" title="Git基础">Git基础</a><time datetime="2024-04-28T11:00:12.000Z" title="发表于 2024-04-28 19:00:12">2024-04-28</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/H01-%E5%BC%80%E5%8F%91%E6%8A%80%E8%83%BD/"><span class="card-category-list-name">H01_开发技能</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/H02-%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"><span class="card-category-list-name">H02_计算机基础</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/H03-%E5%85%B6%E4%BB%96/"><span class="card-category-list-name">H03_其他</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/H04-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E6%8C%96%E6%8E%98/"><span class="card-category-list-name">H04_数据分析与挖掘</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/H05-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"><span class="card-category-list-name">H05_人工智能</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/H06-Java/"><span class="card-category-list-name">H06_Java</span><span class="card-category-list-count">2</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/JavaWeb/" style="font-size: 1.1em; color: #999">JavaWeb</a> <a href="/tags/Git-Github/" style="font-size: 1.1em; color: #999">Git&Github</a> <a href="/tags/python/" style="font-size: 1.5em; color: #99a9bf">python</a> <a href="/tags/English/" style="font-size: 1.1em; color: #999">English</a> <a href="/tags/Linux/" style="font-size: 1.1em; color: #999">Linux</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/" style="font-size: 1.1em; color: #999">计算机导论</a> <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 1.1em; color: #999">博客搭建</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%A1%B9%E7%9B%AE/" style="font-size: 1.1em; color: #999">数据分析项目</a> <a href="/tags/Java/" style="font-size: 1.1em; color: #999">Java</a> <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="font-size: 1.1em; color: #999">深度学习</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/08/"><span class="card-archive-list-date">八月 2025</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/04/"><span class="card-archive-list-date">四月 2025</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/09/"><span class="card-archive-list-date">九月 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/03/"><span class="card-archive-list-date">三月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">十一月 2023</span><span class="card-archive-list-count">4</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">12</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">210.2k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-25T12:44:23.138Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2025 By HQH</div><div class="footer_custom_text">Hi,welcome to my blog!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
+    jinrishici.load(result =>{
+      if (true) {
+        const sub = []
+        const content = result.data.content
+        sub.unshift(content)
+        typedJSFn.init(sub)
+      } else {
+        document.getElementById('subtitle').textContent = result.data.content
+      }
+    })
+  })
+}
+typedJSFn.run(subtitleType)
+</script></div><script defer src="/js/cursor.js"></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="30" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="false" data-text="富强,民主,文明,和谐" data-fontsize="15px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><!-- hexo injector body_end start --><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '2s');
+    arr[i].setAttribute('data-wow-delay', '1s');
+    arr[i].setAttribute('data-wow-offset', '100');
+    arr[i].setAttribute('data-wow-iteration', '1');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><script data-pjax>
+  function butterfly_footer_beautify_injector_config(){
+    var parent_div_git = document.getElementById('footer-wrap');
+    var item_html = '<div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v6.2.0" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&amp;logo=hexo" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" data-title="主题版本Butterfly_v4.3.1" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&amp;logo=bitdefender" alt=""/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" data-title="本站采用多线部署，主线路托管于Vercel" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Hosted-Vercel-brightgreen?style=flat&amp;logo=Vercel" alt=""/></a><a class="github-badge" target="_blank" href="https://dashboard.4everland.org/" style="margin-inline:5px" data-title="本站采用多线部署，备用线路托管于4EVERLAND" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Hosted-4EVERLAND-22DDDD?style=flat&amp;logo=IPFS" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub" alt=""/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" data-title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&amp;logo=Claris" alt=""/></a></p>';
+    console.log('已挂载butterfly_footer_beautify')
+    parent_div_git.insertAdjacentHTML("beforeend",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_footer_beautify_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_footer_beautify_injector_config();
+  }
+  </script><script async src="/js/runtime.js"></script><!-- hexo injector body_end end --></body></html>
